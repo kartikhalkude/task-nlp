@@ -2,21 +2,16 @@
 
 ## 1. Time Breakdown
 
-I approached this assignment with the goal of building a clean working solution within the given 4–6 hour limit instead of trying to make it overly complex.
+I approached this assignment with the goal of building a clean working solution within the given limit instead of trying to make it overly complex.
 
-Approximate time breakdown:
+I first focused on setting up the FastAPI project structure and writing the task models and core API endpoints manually. After that, I implemented task creation, task listing, and task completion using simple in-memory storage.
 
-- Project setup (FastAPI, folder structure, dependencies): 30 minutes  
-- Writing models and core API endpoints manually: 1 hour  
-- Building task creation, listing, and completion flow: 45 minutes  
-- Smart feature selection and OpenRouter integration: 1.5 hours  
-- Debugging API issues and fallback handling: 45 minutes  
-- Testing using Swagger/Postman: 30 minutes  
-- README and Decision Log documentation: 30–40 minutes  
+Once the basic API was working, I selected Natural Language to Task Conversion as the smart feature and integrated OpenRouter for AI-based parsing. A good amount of effort went into debugging model issues, rate limits, and response formatting problems.
 
-Total time: Around 5 hours
+Finally, I tested all endpoints using Swagger and Postman and completed the README and Decision Log documentation.
 
 I intentionally kept the project simple and focused on delivering a reliable working solution rather than adding unnecessary complexity.
+
 
 ---
 
